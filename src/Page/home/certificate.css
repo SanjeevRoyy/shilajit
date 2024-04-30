@@ -1,0 +1,38 @@
+.MainDiv{
+    padding: 80px;
+    @media only screen and (max-width:500px){
+        padding: 10px;
+    }
+}
+.Certificate {
+    /* padding: 80px; */
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    /* background: red; */
+    align-items: center;
+    justify-content: space-between;
+
+  
+
+    @media only screen and (max-width:700px) {
+        /* display: flex; */
+        flex-direction: column;
+        /* padding: 10px; */
+    }
+ 
+    p{
+        @media only  screen and (max-width:600px){
+                width: "100%";
+        }
+    }
+ 
+
+
+    img {
+        width: 250px;
+        mix-blend-mode: multiply;
+
+    }
+
+}

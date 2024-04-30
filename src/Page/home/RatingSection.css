@@ -1,0 +1,35 @@
+/* RatingSection.css */
+
+.RatingSection {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .ratings-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .rating {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    color: #ffd700; /* Gold color for filled stars */
+    margin-right: 5px;
+  }
+  
+  .review {
+    margin-top: 10px;
+  }
+  

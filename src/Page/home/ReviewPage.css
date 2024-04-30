@@ -1,0 +1,82 @@
+.Review {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px;
+    justify-content: center;
+    margin-top: 0px;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    @media only screen and (max-width:500px) {
+        /* gap: 10px; */
+        padding: 10px;
+        /* justify-content: center; */
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        /* font-size: 15px; */
+        line-height: 1.5;
+    }
+
+    img {
+        aspect-ratio: 1/1;
+        width: 100px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+}
+
+.FirstDiv {
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.SecondDiv {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    /* @media only screen and (max-width:400px){
+        gap: 10px;
+        flex-direction: column;
+    } */
+    @media only screen and (max-width:900px) {
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+.Content {
+    background: whitesmoke;
+    display: flex;
+    border: 1px solid #ccc;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 2%;
+    /* line-height: 1.5; */
+
+    @media only screen and (max-width:450px) {
+        flex-direction: column;
+
+    }
+}
+
+.Hidden {
+    @media only screen and (max-width:500px) {
+        display: none;
+    }
+}
+
+.Stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

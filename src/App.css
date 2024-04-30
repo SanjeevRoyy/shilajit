@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    /* color: white; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    text-align: center;
+    position: relative;
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/10/16/36/shilajit-products-8379708_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    @media only screen and (max-width:500px){
+        height: 80vh;
+    }
+
+    h1 {
+        font-family: "Oswald";
+        font-size: 95px;
+        text-align: center;
+        /* color: #E5B80B; */
+        color: rgb(216, 154, 54);
+        /* background: linear-gradient(90deg, rgba(216,154,54,1) 0%, rgba(173,125,46,1) 36%, rgba(216,154,54,1) 67%, rgba(216,154,54,1) 85%); */
+        position: absolute;
+        text-wrap: nowrap;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+
+
+        @media only screen and (max-width:900px) {
+            font-size: 60px;
+        }
+
+        @media only screen and (max-width:600px) {
+            font-size: 30px;
+        }
+    }
+  
+
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.top-p {
+    /* font-family: "Kaushan Script"; */
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    @media only screen and (max-width:500px){
+        font-size: medium;
+        top: 35%;
+        text-wrap: nowrap;
+    }
+}
+
+
+
+.name {
+    
+
+    color: black;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+ul {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    text-decoration: none;
+    gap: 40px;
+}
+
+li {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+    /* font-size: x-large; */
+}
+
+.original {
+    width: 6%;
+}
+
+.section-2>p {
+    color: black;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+
+/* <button class="button-87" role="button">Button 87</button> */
+
+
+.buy {
+    font-family: "Poppins";
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    cursor: pointer;
+    font-size: 30px;  
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 15px -7px #ce7b1d;
+    /* background-image: linear-gradient(45deg, rgb(255, 42, 0) 0%, #f39613 51%, #ff2a00 100%);
+     */
+     background: rgb(167, 0, 0);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+
+    @media screen and (max-width:700px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width:500px) {
+        /* left: 50%; */
+        left: 26%;
+        text-wrap: nowrap;
+    }
+
+
+    /* @media screen and (max-width:1000px) {
+        top: 93%;
+        left: 80%;
+    } */
+}
+
+.buy:hover {
+    /* background-position: right center; */
+transform: scale(0.95);
+    
+    /* text-decoration: none; */
+}
+
+.buy:active {
+    transform: scale(0.95);
+}
+.authentic{
+    
+        position: relative;
+        width: 300px;
+        top:50%;
+        right: 30%;
+        mix-blend-mode: multiply;
+    
+        
+    
+}

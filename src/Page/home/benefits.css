@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+/* gap: 40px; */
+    /* height: 100vh; */
+    @media only screen and (max-width:500px){
+        padding: 10px;
+    }
+}
+
+
+
+.img-div > img {
+    width: 550px;
+    /* height: 400px; */
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-family: "Poppins",sans-serif;
+
+    }
+}
+
+.flex-col > div {
+    padding: 40px;
+    width: 400px;
+}
+
+.flex-col > div > .row > h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 4px;
+    /* width: 330px; */
+    text-wrap: nowrap;
+}
+
+.flex-col > div > p {
+    font-family: "Poppins", sans-serif;
+    max-width: 400px;
+    color:  #666666; 
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row > img{
+    width: 40px;
+    margin: 10px;
+    /* padding: 1px; */
+}
+
+@media screen and (max-width: 1413px) {
+    .img-div > img{
+       width: 300px;
+    }
+
+    .flex-col > div{
+        max-width: 1000px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+       flex-direction: column;
+    
+    }
+
+    .flex-col{
+        /* width: 60%; */
+        align-items: center;
+    }
+}
